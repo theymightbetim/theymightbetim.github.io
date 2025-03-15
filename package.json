@@ -1,9 +1,16 @@
 {
   "name": "theymightbetim.github.io",
+  "homepage": "https://theymightbetim.github.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theymightbetim/theymightbetim.github.io.git"
+  }
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
