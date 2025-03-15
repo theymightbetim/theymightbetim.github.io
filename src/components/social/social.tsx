@@ -1,3 +1,7 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import './social.css'
+
 export const SocialLinks = () => {
     return (
     <div className="SocialLinks">

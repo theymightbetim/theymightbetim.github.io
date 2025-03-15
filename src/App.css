@@ -4,11 +4,3 @@
   padding: 2rem;
   text-align: center;
 }
-
-.SocialLinks {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  margin-top: 1rem;
-  font-size:large
-}
