@@ -22,7 +22,7 @@ const Intro = () => {
 
 const SocialLinks = () => {
   return (
-    <div>
+    <div className="SocialLinks">
       <a href="https://linkedin.com/in/timothy-mackenzie">
         <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
       </a>  |  
