@@ -1,6 +1,7 @@
 import './App.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { SocialLinks } from './components/social/social'
 
 function App() {
   return (
@@ -20,17 +21,5 @@ const Intro = () => {
   return <p>Welcome to my website! It's under construction, but check back soon!</p>
 }
 
-const SocialLinks = () => {
-  return (
-    <div className="SocialLinks">
-      <a href="https://linkedin.com/in/timothy-mackenzie">
-        <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
-      </a>  |  
-      <a href="https://github.com/theymightbetim">
-        <FontAwesomeIcon icon={faGithub} /> GitHub
-      </a>
-    </div>
-    )
-}
 
 export default App
