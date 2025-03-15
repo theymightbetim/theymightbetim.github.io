@@ -25,7 +25,7 @@ const SocialLinks = () => {
     <div>
       <a href="https://linkin.com/in/timothy-mackenzie">
         <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
-      </a> | 
+      </a>  |  
       <a href="https://github.com/theymightbetim">
         <FontAwesomeIcon icon={faGithub} /> GitHub
       </a>
