@@ -1,5 +1,5 @@
 describe('NavBar Tests', () => {
-    before('Load the Home Page', () => {
+    beforeEach('Load the Home Page', () => {
         cy.visit('https://theymightbetim.github.io', { failOnStatusCode: true })
     })
     it('should have a Home link', () => {
@@ -18,7 +18,7 @@ describe('NavBar Tests', () => {
         cy.get('[data-testid="projects-link"]')
             .should('exist')
             .should('contain', 'Projects')
-            .should('have.attr', 'href', 'https://github.com/theymightbetim')
+            .should('have.attr', 'href', 'https://github.com/theymightbetim?tab=repositories')
     })
     it('should have a Blog link', () => {
         cy.get('[data-testid="blog-link"]')

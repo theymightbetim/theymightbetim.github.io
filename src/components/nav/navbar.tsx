@@ -12,7 +12,7 @@ export const Navbar = () => {
                 <a href="/about" data-testid="about-link">About</a>
             </div>
             <div className="navlink">
-                <a href="https://github.com/theymightbetim" data-testid="projects-link"> <FontAwesomeIcon icon={faGithub} />Projects</a>
+                <a href="https://github.com/theymightbetim?tab=repositories" data-testid="projects-link"> <FontAwesomeIcon icon={faGithub} />Projects</a>
             </div>
             <div className="navlink">
                 <a href="/blog" data-testid="blog-link">Blog</a>
