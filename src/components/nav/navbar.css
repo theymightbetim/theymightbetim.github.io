@@ -1,10 +1,9 @@
 .navbar {
     text-align: center;
-    font-size: 12px;
-    background-color: darkslategray;
+    font-size: 20px;
+    background-color: #013537;
     color: white;
     justify-content: space-evenly;
-
 }
 
 .navlink {
@@ -14,4 +13,5 @@
 
 a.disabled {
     pointer-events: none;
+    color: white;
 }
