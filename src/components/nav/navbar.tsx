@@ -5,11 +5,21 @@ import './navbar.css'
 export const Navbar = () => {
     return (
         <div className="navbar">
-            <div className="navlink"><a href="/" >Home</a></div>
-            <div className="navlink"><a href="/about" >About</a></div>
-            <div className="navlink"><a href="https://github.com/theymightbetim" > <FontAwesomeIcon icon={faGithub} />Projects</a></div>
-            <div className="navlink"><a href="/blog" >Blog</a></div>
-            <div className="navlink"><a href="/contact" >Contact</a></div>
+            <div className="navlink">
+                <a href="/" data-testid="home-link">Home</a>
+            </div>
+            <div className="navlink">
+                <a href="/about" data-testid="about-link">About</a>
+            </div>
+            <div className="navlink">
+                <a href="https://github.com/theymightbetim" data-testid="projects-link"> <FontAwesomeIcon icon={faGithub} />Projects</a>
+            </div>
+            <div className="navlink">
+                <a href="/blog" data-testid="blog-link">Blog</a>
+            </div>
+            <div className="navlink">
+                <a href="/contact" data-testid="contact-link">Contact</a>
+            </div>
         </div>
     )
 }
