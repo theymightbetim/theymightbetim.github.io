@@ -11,3 +11,7 @@
     display: inline;
     padding-right: 1rem;
 }
+
+a.disabled {
+    pointer-events: none;
+}
