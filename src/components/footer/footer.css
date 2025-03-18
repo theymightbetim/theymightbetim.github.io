@@ -1,0 +1,15 @@
+.footer {
+    text-align: center;
+    font-size: 8px;
+    background-color: darkslategray;
+    color: white;
+    padding: 0px;
+}
+
+.fa-react {
+    color: #61dafb;
+}
+
+.fa-js {
+    color: #f0db4f;
+}

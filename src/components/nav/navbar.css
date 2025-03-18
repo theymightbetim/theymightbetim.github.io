@@ -1,0 +1,13 @@
+.navbar {
+    text-align: center;
+    font-size: 12px;
+    background-color: darkslategray;
+    color: white;
+    justify-content: space-evenly;
+
+}
+
+.navlink {
+    display: inline;
+    padding-right: 10px;
+}

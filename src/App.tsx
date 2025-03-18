@@ -1,12 +1,16 @@
 import './App.css'
 import { SocialLinks } from './components/social/social'
+import { Footer } from './components/footer/footer'
+import { Navbar } from './components/nav/navbar'
 
 function App() {
   return (
     <>
+      <Navbar />
       <Header />
       <Intro />
       <SocialLinks />
+      <Footer />
     </>
   )
 }
