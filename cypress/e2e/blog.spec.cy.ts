@@ -1,0 +1,13 @@
+describe('BlogPage Tests', () => {
+    it('BlogPage Loads', () => {
+        cy.visit('https://theymightbetim.github.io/blog', { failOnStatusCode: true })
+    })
+    it('should have the navbar', () => {
+        cy.visit('https://theymightbetim.github.io/blog')
+        cy.get('.navbar').should('exist')
+    })
+    it('should have the correct header', () => {
+        cy.visit('https://theymightbetim.github.io/blog')
+        cy.get('h1').should('contain', 'Blog')
+    })
+})
