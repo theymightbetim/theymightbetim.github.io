@@ -14,4 +14,10 @@ describe('BlogPage Tests', () => {
         cy.visit('https://theymightbetim.github.io/blog')
         cy.title().should('contain', 'Defective Cognition')
     })
+
+    it('Visual Test', () => {
+        cy.visit('https://theymightbetim.github.io/blog')
+        cy.wait(1000)
+        cy.get('body').snapshot({})
+    })
 })
