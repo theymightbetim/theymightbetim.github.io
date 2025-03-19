@@ -9,7 +9,7 @@ export default defineConfig({
     rollupOptions:{
       input: {
         main: './index.html',
-        blog: './pages/blog.html'
+        blog: './blog.html'
       }
     },
     outDir: './build',
