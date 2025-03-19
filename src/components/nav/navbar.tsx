@@ -9,7 +9,7 @@ export const Navbar = () => {
                 <a href="/" data-testid="home-link">Home</a>
             </div>
             <div className="navlink">
-                <a href="/about" className="disabled" data-testid="about-link">About</a>
+                <a href="/about" data-testid="about-link">About</a>
             </div>
             <div className="navlink">
                 <a href="https://github.com/theymightbetim?tab=repositories"
