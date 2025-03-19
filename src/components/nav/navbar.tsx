@@ -17,8 +17,7 @@ export const Navbar = () => {
             </div>
             <div className="navlink">
                 <a href="/blog"
-                    className="disabled"
-                    data-testid="blog-link">Blog</a>
+                data-testid="blog-link">Blog</a>
             </div>
             <div className="navlink">
                 <a href="/contact"

@@ -2,6 +2,10 @@ describe('HomePage Tests', () => {
   it('HomePage Loads', () => {
     cy.visit('https://theymightbetim.github.io', { failOnStatusCode: true })
   })
+  it('should have the navbar', () => {
+    cy.visit('https://theymightbetim.github.io')
+    cy.get('.navbar').should('exist')
+  })
   it('Should have the correct title', () => {
     cy.visit('https://theymightbetim.github.io')
     cy.title().should('include', 'Tim Mackenzie')
