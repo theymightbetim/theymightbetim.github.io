@@ -8,6 +8,10 @@ describe('BlogPage Tests', () => {
     })
     it('should have the correct header', () => {
         cy.visit('https://theymightbetim.github.io/blog')
-        cy.get('h1').should('contain', 'Blog')
+        cy.get('h1').should('contain', 'Defective Cognition')
+    })
+    it('should have the correct title', () => {
+        cy.visit('https://theymightbetim.github.io/blog')
+        cy.title().should('contain', 'Defective Cognition')
     })
 })
