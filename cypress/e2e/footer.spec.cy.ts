@@ -7,6 +7,8 @@ describe('Footer Tests', () => {
             .should('be.exist')
             .should('be.visible')
             .should('contain.text', 'Built with')
-        cy.get('.fa-react')
+    })
+    it('should contain react icon', () => {
+        cy.get('.fa-react').should('exist')
     })
 })
