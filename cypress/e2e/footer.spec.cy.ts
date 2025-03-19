@@ -7,6 +7,6 @@ describe('Footer Tests', () => {
             .should('be.exist')
             .should('be.visible')
             .should('contain.text', 'Built with')
-            .should('contain.html', 'FontAwesome')
+        cy.get('.fa-react')
     })
 })
