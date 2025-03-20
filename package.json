@@ -29,8 +29,10 @@
   "devDependencies": {
     "@cypress/snapshot": "^2.1.7",
     "@eslint/js": "^9.21.0",
+    "@playwright/test": "^1.51.1",
     "@types/cypress": "^0.1.6",
     "@types/mocha": "^10.0.10",
+    "@types/node": "^22.13.10",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react": "^4.3.4",
