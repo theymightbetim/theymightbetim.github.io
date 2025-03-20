@@ -19,4 +19,6 @@ jobs:
     - name: Run Playwright tests
       run: npx playwright test
     - name: Deploy
+      env:
+        GITHUB_TOKEN: ${{ secrets.DEPLOY_KEY }}
       run: npm run deploy
