@@ -30,4 +30,8 @@ describe('HomePage Tests', () => {
       cy.get('a').contains('GitHub').should('have.attr', 'href', socialLinks.githubLink)
     })
   })
+  it('Snapshot Test', () => {
+    cy.visit('https://theymightbetim.github.io')
+    cy.get('body').snapshot()
+  })
 })

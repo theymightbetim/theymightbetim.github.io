@@ -18,6 +18,6 @@ describe('BlogPage Tests', () => {
     it('Visual Test', () => {
         cy.visit('https://theymightbetim.github.io/blog')
         cy.wait(1000)
-        cy.get('body').snapshot({})
+        cy.get('body').snapshot()
     })
 })
